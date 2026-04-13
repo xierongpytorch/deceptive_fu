@@ -4,7 +4,6 @@ Title of the **Manuscript**: The Illusion of Forgetting: Unmasking and Resolving
 
 This repository contains the reference code structure for the Deceptive Federated Unlearning experiments.
 
-## Recommended structure
 
 ```text
 .
@@ -27,8 +26,6 @@ This repository contains the reference code structure for the Deceptive Federate
 └── .gitignore
 ```
 
-## What each file does
-
 * `config.py`: default hyperparameters and dataset presets.
 * `data.py`: dataset loading, preprocessing, Dirichlet split, and client dataset wrapper.
 * `models.py`: backbones and feature extraction.
@@ -42,7 +39,6 @@ This repository contains the reference code structure for the Deceptive Federate
 * `results.py`: CSV saving and grouped summaries.
 * `run\_experiments.py`: experiment grid entry point.
 
-## Run
 
 ```bash
 pip install -r requirements.txt

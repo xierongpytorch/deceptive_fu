@@ -1,4 +1,6 @@
-# The Illusion of Forgetting: Unmasking and Resolving Deceptive Federated Unlearning
+Journal Title: IEEE Transactions on Information Forensics & Security
+
+Title of the **Manuscript**: The Illusion of Forgetting: Unmasking and Resolving Deceptive Federated Unlearning
 
 This repository contains the reference code structure for the Deceptive Federated Unlearning experiments.
 
@@ -47,7 +49,4 @@ pip install -r requirements.txt
 python run\_experiments.py
 ```
 
-## Notes
-
-This split keeps your original dictionary-style `args` workflow so that migration from the monolithic script stays simple.
 
